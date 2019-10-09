@@ -3,7 +3,6 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-// using System.Data;
 using System.Diagnostics;
 namespace BattleShips
 {
@@ -24,7 +23,7 @@ namespace BattleShips
 		private Tile [,] _GameTiles;
 		private Dictionary<ShipName, Ship> _Ships;
 
-		private int _ShipsKilled = 0;
+		private int _ShipsKilled;
 		/// <summary>
 		/// The sea grid has changed and should be redrawn.
 		/// </summary>

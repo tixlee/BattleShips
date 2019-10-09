@@ -67,8 +67,8 @@ namespace BattleShips
 		/// </summary>
 		private void CompleteDeployment ()
 		{
-			_players [0].Enemy = new SeaGridAdapter (_players [1].PlayerGrid);
-			_players [1].Enemy = new SeaGridAdapter (_players [0].PlayerGrid);
+			_players [0].Enemy = new SeaGridAdapter(_players [1].PlayerGrid);
+			_players [1].Enemy = new SeaGridAdapter(_players [0].PlayerGrid);
 		}
 
 		/// <summary>

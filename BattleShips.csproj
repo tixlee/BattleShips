@@ -80,6 +80,8 @@
     <Compile Include="ShipName.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="TileView.cs" />
+    <Compile Include="UtilityFunctions.cs" />
+    <Compile Include="SeaGridAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">

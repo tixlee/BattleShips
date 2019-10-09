@@ -56,7 +56,7 @@ namespace BattleShips
 		{
 			_shipName = ship;
 			_tiles = new List<Tile> ();
-			_sizeOfShip = _shipName;
+			_sizeOfShip = (int)(_shipName);
 		}
 
 		public void AddTile (Tile tile)
@@ -86,7 +86,7 @@ namespace BattleShips
 
 		public bool IsDestroyed {
 			get {
-				return;
+				return Hits == Size;
 			}
 		}
 
