@@ -1,15 +1,36 @@
-﻿<Properties StartupItem="BattleShips.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/GameController.cs">
-    <Files>
-      <File FileName="src/Model/AIPlayer.cs" Line="65" Column="68" />
-      <File FileName="src/Model/AIHardPlayer.cs" Line="209" Column="1" />
-      <File FileName="src/Model/AIMediumPlayer.cs" Line="1" Column="1" />
-      <File FileName="src/GameController.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{871B5A90-103A-46A5-BBB9-07C02B9851D1}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameResources.cs">
+    <Files>
+      <File FileName="src\Model\AIHardPlayer.cs" Line="8" Column="2" />
+      <File FileName="src\Model\AIMediumPlayer.cs" Line="123" Column="1" />
+      <File FileName="src\Model\AIOption.cs" Line="15" Column="16" />
+      <File FileName="src\Model\AIPlayer.cs" Line="144" Column="1" />
+      <File FileName="src\Model\AttackResult.cs" Line="98" Column="1" />
+      <File FileName="src\Model\BattleShipsGame.cs" Line="104" Column="3" />
+      <File FileName="src\Model\Direction.cs" Line="5" Column="34" />
+      <File FileName="src\Model\ISeaGrid.cs" Line="6" Column="26" />
+      <File FileName="src\Model\Player.cs" Line="8" Column="2" />
+      <File FileName="src\Model\ResultOfAttack.cs" Line="44" Column="36" />
+      <File FileName="src\Model\SeaGrid.cs" Line="202" Column="3" />
+      <File FileName="src\DeploymentController.cs" Line="187" Column="1" />
+      <File FileName="src\DiscoveryController.cs" Line="31" Column="3" />
+      <File FileName="src\EndingGameController.cs" Line="23" Column="16" />
+      <File FileName="src\GameController.cs" Line="381" Column="2" />
+      <File FileName="src\GameLogic.cs" Line="5" Column="34" />
+      <File FileName="src\GameResources.cs" Line="6" Column="14" />
+      <File FileName="src\GameState.cs" Line="1" Column="1" />
+      <File FileName="src\HighScoreController.cs" Line="1" Column="1" />
+      <File FileName="src\MenuController.cs" Line="1" Column="1" />
+      <File FileName="Ship.cs" Line="101" Column="1" />
+      <File FileName="ShipName.cs" Line="14" Column="1" />
+      <File FileName="Tile.cs" Line="99" Column="1" />
+      <File FileName="TileView.cs" Line="9" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BattleShips PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

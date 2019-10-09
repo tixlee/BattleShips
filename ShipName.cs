@@ -1,10 +1,13 @@
 ﻿using System;
 namespace BattleShips
 {
-	public class ShipName
+	public enum ShipName
 	{
-		public ShipName ()
-		{
-		}
+		None = 0,
+		Tug = 1,
+		Submarine = 2,
+		Destroyer = 3,
+		Battleship = 4,
+		AircraftCarrier = 5,
 	}
 }
